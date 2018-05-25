@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.header-container {
+    width: 100%;
+    float: left;
+    background: #1975ff;
+}
+
+.header-container .navbar-inverse {
+    background-color: #1975ff;
+    border-color: #1975ff;
+}
+
+.header-container .navbar {
+    min-height: 60px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-container .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 19px 20px;
+    transition: all ease 0.4s;
+}
+
+.header-container .navbar-inverse .navbar-nav>li>a:hover {
+    color: #000;
+    transition: all ease 0.4s;
+}
+
+.header-container .navbar-brand {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: #0057ff url('images/rajeshrasu-rr.jpg') center no-repeat;
+    background-size: 50px 50px;
+    border-radius: 55px;
+    margin-top: 4px;
+    display: inline-block;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.header-container .navbar-brand:hover {
+    background: url('images/rajeshrasu.jpg') center no-repeat;
+    background-size: 50px 50px;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.header-container .navbar>.container .navbar-brand {
+    margin-left: 0px;
+}
+
+.header-container .navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.header-container .navbar-inverse .navbar-toggle:hover,
+.header-container .navbar-inverse .navbar-toggle:focus {
+    border-color: transparent;
+    background: transparent;
+}
+
+.header-container .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+/* Banner Style Start */
+
+.section-banner-container {
+    width: 100%;
+    height: 450px;
+    float: left;
+    background: #1975ff;
+    display: table;
+}
+
+.banner-content-inner {
+    width: 100%;
+    height: 450px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner-profile-image {
+    width: 100%;
+    float: left;
+}
+
+.banner-profile-image .profile {
+    width: 225px;
+    height: 225px;
+    border-radius: 225px;
+}
+
+.banner-profile-right {
+    width: 100%;
+    float: left;
+    color: #fff;
+}
+
+.banner-profile-right .title {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.banner-profile-right .name {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.banner-profile-right .designation {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.banner-profile-right .overview {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+
+/* How I Work Style  */
+
+.section-how-i-work-container {
+    width: 100%;
+    float: left;
+    padding: 80px;
+}
+
+.master-title-block {
+    width: 100%;
+    float: left;
+    color: #000;
+    text-align: center;
+}
+
+.master-title-block .title-small {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.master-title-block .title-small .additional {
+    color: #1975ff;
+    font-weight: 600;
+}
+
+.master-title-block .title-large {
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.master-title-block .title-text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.master-title-block .title-text p {
+    margin: 0px;
+}
+
+.section-how-i-work-content-block,
+.how-i-work-column {
+    width: 100%;
+    float: left;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-how-i-work-content-block .how-i-work-column .howicon {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #1975ff;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.section-how-i-work-content-block .how-i-work-column .howtitle {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.section-how-i-work-content-block .how-i-work-column .howtext {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+
+/* Expertise Style  */
+
+.section-expertise-container {
+    width: 100%;
+    float: left;
+    background: #eef5fa;
+    padding: 80px;
+}
+
+.section-expertise-carousel {
+    width: 100%;
+    float: left;
+    color: #0066ff;
+    text-align: center;
+    padding: 0 220px;
+    margin-top: 30px;
+}
+
+.expertise-logo {
+    width: 100%;
+    height: 130px;
+    float: left;
+    background: #fff;
+    font-size: 50px;
+    color: #0066ff;
+    font-weight: 600;
+    text-align: center;
+    line-height: 130px;
+}
+
+
+/* Services Style  */
+
+.section-services-container {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 80px;
+}
+
+.section-services-carousel {
+    width: 100%;
+    float: left;
+    color: #0066ff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.service-single-item {
+    width: 100%;
+    float: left;
+    background: #fff;
+    border: 1px solid #eef5fa;
+    text-align: center;
+    padding: 70px 35px;
+}
+
+.service-single-item .icon {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #0066ff;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.service-single-item .text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #000;
+}
+
+
+/* Contact Style Start */
+
+.section-contact-container {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 80px;
+}
+
+.section-contact-content-block {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.section-contact-block,
+.contact-column {
+    width: 100%;
+    float: left;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-contact-content-block .contact-column .contacticon {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #1975ff;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.section-contact-content-block .contact-column .contacttitle {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.section-contact-content-block .contact-column .contacttext {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.section-contact-content-block .contact-column .contacttext p {
+    margin: 0px;
+}
+
+
+/* Work Style Start */
+
+.section-work-carousel {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.work-single-card {
+    width: 100%;
+    float: left;
+    background: #fff;
+    text-align: center;
+}
+
+.work-single-card .project-image {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.work-single-card .project-image .btn-popup {
+    background: #1975ff;
+    position: absolute;
+    right: 15px;
+    bottom: -15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.work-single-card .project-details {
+    width: 100%;
+    float: left;
+    padding: 30px 15px;
+}
+
+.work-single-card .project-details .project-name {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+
+.work-single-card .project-details .project-cate {
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+}
+
+
+/* Footer Style Start */
+
+.footer-container {
+    width: 100%;
+    float: left;
+    border-top: 1px solid #eef5fa;
+    padding: 40px 0;
+}
+
+.footer-text {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=80);
+    opacity: .8;
+}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 900px;
+}
+
+#project-details .modal-content {
+    border-radius: 0px;
+}
+
+
+/* Media Style Start */
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1024px) {
+    .section-how-i-work-container,
+    .section-expertise-container,
+    .section-services-container,
+    .section-expertise-container,
+    .section-contact-container {
+        padding: 30px 15px;
+    }
+    .section-expertise-carousel {
+        padding: 0px;
+    }
+    .service-single-item {
+        padding: 70px 15px;
+    }
+    .service-single-item .text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 768px) {
+    .banner-profile-image {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .banner-profile-image .profile {
+        width: 100px;
+        height: 100px;
+        border-radius: 85px;
+    }
+    .banner-profile-right {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-profile-right .title {
+        font-size: 14px;
+    }
+    .banner-profile-right .name {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .banner-profile-right .designation {
+        font-size: 13px;
+    }
+    .banner-profile-right .overview {
+        font-size: 14px;
+    }
+    .section-how-i-work-container,
+    .section-expertise-container,
+    .section-services-container,
+    .section-expertise-container,
+    .section-contact-container {
+        padding: 30px 15px;
+    }
+    .master-title-block .title-small {
+        font-size: 16px;
+    }
+    .master-title-block .title-large {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .master-title-block .title-text {
+        font-size: 14px;
+    }
+    .section-expertise-carousel {
+        padding: 0px;
+    }
+    .section-how-i-work-content-block .how-i-work-column .howtitle {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .work-single-card .project-details .project-name {
+        font-size: 15px;
+    }
+    .section-contact-content-block .contact-column .contacttitle {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .section-contact-content-block .contact-column .contacttext {
+        font-size: 14px;
+    }
+    .service-single-item .text {
+        font-size: 16px;
+    }
+    .footer-container {
+        padding: 15px 0;
+    }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .banner-profile-image {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .banner-profile-image .profile {
+        width: 100px;
+        height: 100px;
+        border-radius: 85px;
+    }
+    .banner-profile-right {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-profile-right .title {
+        font-size: 14px;
+    }
+    .banner-profile-right .name {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .banner-profile-right .designation {
+        font-size: 13px;
+    }
+    .banner-profile-right .overview {
+        font-size: 14px;
+    }
+    .section-how-i-work-container,
+    .section-expertise-container,
+    .section-services-container,
+    .section-expertise-container,
+    .section-contact-container {
+        padding: 30px 15px;
+    }
+    .master-title-block .title-small {
+        font-size: 16px;
+    }
+    .master-title-block .title-large {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .master-title-block .title-text {
+        font-size: 14px;
+    }
+    .section-expertise-carousel {
+        padding: 0px;
+    }
+    .section-how-i-work-content-block .how-i-work-column .howtitle {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .work-single-card .project-details .project-name {
+        font-size: 15px;
+    }
+    .section-contact-content-block .contact-column .contacttitle {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .section-contact-content-block .contact-column .contacttext {
+        font-size: 14px;
+    }
+    .service-single-item .text {
+        font-size: 16px;
+    }
+    .footer-container {
+        padding: 15px 0;
+    }
+    .header-container .navbar>.container .navbar-brand {
+        margin-left: 15px;
+    }
+    .header-container .navbar{
+        min-height: 50px;
+    }
+    .header-container .navbar-brand{
+        width: 40px;
+        height: 40px;
+    }
+}

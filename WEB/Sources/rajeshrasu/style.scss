@@ -1,0 +1,186 @@
+@import "variables";
+
+@font-face {
+  font-family: 'rajeshrasu';
+  src:  url('#{$icomoon-font-path}/rajeshrasu.eot?h3hg1v');
+  src:  url('#{$icomoon-font-path}/rajeshrasu.eot?h3hg1v#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/rajeshrasu.ttf?h3hg1v') format('truetype'),
+    url('#{$icomoon-font-path}/rajeshrasu.woff?h3hg1v') format('woff'),
+    url('#{$icomoon-font-path}/rajeshrasu.svg?h3hg1v#rajeshrasu') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rajeshrasu' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@function unicode($str) {
+  @return unquote("\"") + $str + unquote("\"");
+}
+
+.rr-react .path1 {
+  &:before {
+    content: unicode($rr-react-path1);  
+    color: rgb(0, 0, 0);
+  }
+}
+.rr-react .path2 {
+  &:before {
+    content: unicode($rr-react-path2);  
+    margin-left: -1.11328125em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.rr-react .path3 {
+  &:before {
+    content: unicode($rr-react-path3);  
+    margin-left: -1.11328125em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.rr-Magento {
+  &:before {
+    content: unicode($rr-Magento); 
+  }
+}
+.rr-Boostrap_logo .path1 {
+  &:before {
+    content: unicode($rr-Boostrap_logo-path1);  
+    color: rgb(0, 0, 0);
+  }
+}
+.rr-Boostrap_logo .path2 {
+  &:before {
+    content: unicode($rr-Boostrap_logo-path2);  
+    margin-left: -0.99609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.rr-placeholder {
+  &:before {
+    content: unicode($rr-placeholder); 
+  }
+}
+.rr-computer {
+  &:before {
+    content: unicode($rr-computer); 
+  }
+}
+.rr-teamwork {
+  &:before {
+    content: unicode($rr-teamwork); 
+  }
+}
+.rr-tick-inside-a-circle {
+  &:before {
+    content: unicode($rr-tick-inside-a-circle); 
+  }
+}
+.rr-application {
+  &:before {
+    content: unicode($rr-application); 
+  }
+}
+.rr-dreamweaver {
+  &:before {
+    content: unicode($rr-dreamweaver); 
+  }
+}
+.rr-css {
+  &:before {
+    content: unicode($rr-css); 
+  }
+}
+.rr-photoshop {
+  &:before {
+    content: unicode($rr-photoshop); 
+  }
+}
+.rr-illustrator {
+  &:before {
+    content: unicode($rr-illustrator); 
+  }
+}
+.rr-html {
+  &:before {
+    content: unicode($rr-html); 
+  }
+}
+.rr-wordpress-logo-button {
+  &:before {
+    content: unicode($rr-wordpress-logo-button); 
+  }
+}
+.rr-cross-out {
+  &:before {
+    content: unicode($rr-cross-out); 
+  }
+}
+.rr-instagram-logo {
+  &:before {
+    content: unicode($rr-instagram-logo); 
+  }
+}
+.rr-twitter-logo-button {
+  &:before {
+    content: unicode($rr-twitter-logo-button); 
+  }
+}
+.rr-facebook-logo-button {
+  &:before {
+    content: unicode($rr-facebook-logo-button); 
+  }
+}
+.rr-google-plus-logo-button {
+  &:before {
+    content: unicode($rr-google-plus-logo-button); 
+  }
+}
+.rr-plus-symbol {
+  &:before {
+    content: unicode($rr-plus-symbol); 
+  }
+}
+.rr-phone {
+  &:before {
+    content: unicode($rr-phone); 
+  }
+}
+.rr-vector {
+  &:before {
+    content: unicode($rr-vector); 
+  }
+}
+.rr-seo {
+  &:before {
+    content: unicode($rr-seo); 
+  }
+}
+.rr-computer-graphic {
+  &:before {
+    content: unicode($rr-computer-graphic); 
+  }
+}
+.rr-smartphone {
+  &:before {
+    content: unicode($rr-smartphone); 
+  }
+}
+.rr-mail {
+  &:before {
+    content: unicode($rr-mail); 
+  }
+}
+
