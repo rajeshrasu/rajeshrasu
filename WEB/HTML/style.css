@@ -758,5 +758,10 @@ body {
     }
     #project-details .modal-content .close {
         color: #fff;
+        top: 0;
+        right: 0;
+        background: #ff0012;
+        padding: 7px;
+        font-size: 12px;
     }
 }
