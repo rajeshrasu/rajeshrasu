@@ -774,10 +774,10 @@ a,button{
         height: auto;
     }
     #project-details .modal-content .close {
-        color: #1975ff;
+        color: #fff;
         top: 0;
         right: 0;
-        background: #fff;
+        background: #1975ff;
         padding: 7px;
         font-size: 12px;
         outline: none;
