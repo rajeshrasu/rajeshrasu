@@ -756,4 +756,7 @@ body {
     #project-details .modal-content .project-details .project-desc {
         height: auto;
     }
+    #project-details .modal-content .close {
+        color: #fff;
+    }
 }
